@@ -1,0 +1,127 @@
+
+body {
+
+    margin:0;
+    padding:0;
+    background:#FFE4C4;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #FFE4C4;
+    justify-content:center;
+}
+  .box {
+    margin-top: 180px;
+
+    width: 650px;
+  height: 350px;  
+  padding: 5px;
+  font-family: "arial;
+
+}
+#menu ul {
+      padding:20px;
+      margin:0px;
+      float: left;
+      width: 97%;
+      background-color:#FA8072;
+      list-style:none;
+      font:120% Trebuchet MS;
+    }
+ 
+    #menu ul li { display: inline; }
+ 
+    #menu ul li a {
+      background-color:#FA8072;
+      color:  #FF4040;
+      text-decoration: none;
+      border-bottom:3px solid #FFFFFF;
+      padding: 8px 8px;
+      float:left;
+      color: #FFFFFF;
+       margin-left: 100px;
+
+    }
+ 
+    #menu ul li a:hover {
+      background-color:#D6D6D6;
+      color: #6D6D6D;
+      border-bottom:10px solid #FFDAB9;
+     
+    }
+
+
+#img {
+  max-width:60%;
+  height:auto;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+    margin-left: 5px;
+  left: 60%;
+    width: auto;
+    height: auto;
+
+  z-index: 3;
+  }
+
+
+  #imagem {
+
+  height: 778px;
+  width: 223px;
+  margin-left: 120px;
+  position: absolute; 
+  left: 550px; /* posiciona a 90px para a esquerda */ 
+  top: 120px; /* posiciona a 70px para baixo */
+  }
+
+   #imagem2 {
+
+  height: 778px;
+  width: 223px;
+  margin-left: 120px;
+  position: absolute; 
+  left: 300px; /* posiciona a 90px para a esquerda */ 
+  top: 150px; /* posiciona a 70px para baixo */
+  }
+  #imagem3 {
+
+  height: 778px;
+  width: 223px;
+  margin-left: 120px;
+  position: absolute; 
+  left: -100px; /* posiciona a 90px para a esquerda */ 
+  top: 180px; /* posiciona a 70px para baixo */
+  }
+
+#bloco {
+  width:800px;
+  height:500px;
+ 
+  margin:10px;
+  left: 5px; /* posiciona a 90px para a esquerda */ 
+  top: 150px; /* posiciona a 70px para baixo */
+
+}
+#font2{
+font-family: "arial;
+font-size: 15px;
+line-height: 1.5;
+color: black;
+
+ 
+}
+
+#imagem9 {
+
+  height: 778px;
+  width: 223px;
+  margin-left: 120px;
+  position: absolute; 
+  left: 900px; /* posiciona a 90px para a esquerda */ 
+  top: 140px; /* posiciona a 70px para baixo */
+  }

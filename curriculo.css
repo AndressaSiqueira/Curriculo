@@ -1,0 +1,130 @@
+
+body {
+
+    margin:0;
+    padding:0;
+    background:#FFE4C4;
+}
+
+
+#menu ul {
+      padding:20px;
+      margin:0px;
+      float: left;
+      width: 97%;
+      background-color:#FA8072;
+      list-style:none;
+      font:120% Trebuchet MS;
+    }
+ 
+    #menu ul li { display: inline; }
+ 
+    #menu ul li a {
+      background-color:#FA8072;
+      color:  #FF4040;
+      text-decoration: none;
+      border-bottom:3px solid #FFFFFF;
+      padding: 8px 8px;
+      float:left;
+      color: #FFFFFF;
+       margin-left: 100px;
+
+    }
+ 
+    #menu ul li a:hover {
+      background-color:#D6D6D6;
+      color: #6D6D6D;
+      border-bottom:10px solid #FFDAB9;
+     
+    }
+
+ #font1{
+font-family: "trebuchet MS", sans-serif;
+font-size: 35px;
+line-height: 2.5;
+color: #EE3B3B;
+
+
+ 
+}
+
+#img {
+  max-width:60%;
+  height:auto;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+    margin-left: 5px;
+  left: 60%;
+    width: auto;
+    height: auto;
+
+  z-index: 3;
+  }
+
+
+  #imagem {
+
+  height: 778px;
+  width: 223px;
+  margin-left: 120px;
+  position: absolute; 
+  left: 550px; /* posiciona a 90px para a esquerda */ 
+  top: 120px; /* posiciona a 70px para baixo */
+  }
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #FFE4C4;
+    justify-content:center;
+}
+  .box {
+    width: 550px;
+  height: 400px;  
+  padding: 10px;
+  border: 2px solid red;
+}
+
+#font2{
+font-family: "trebuchet MS", sans-serif;
+font-size: 25px;
+line-height: 2.5;
+color: #EE3B3B;
+
+}
+
+#font3{
+font-family: "arial";
+font-size: 15px;
+
+color:  black;
+
+}
+
+
+ #font4{
+font-family: arial;
+font-size: 15px;
+line-height: 2.5;
+color: black;
+
+
+ 
+}
+#font5{
+font-family: "trebuchet MS", sans-serif;
+font-size: 25px;
+line-height: 1.5;
+color: black;
+
+}
+  #imagem2 {
+
+  height: 778px;
+  width: 223px;
+  margin-left: 120px;
+  position: absolute; 
+  left:200px; /* posiciona a 90px para a esquerda */ 
+  top: 120px; /* posiciona a 70px para baixo */
+  }
